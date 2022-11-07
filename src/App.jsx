@@ -9,7 +9,6 @@ function App() {
     axios.get('https://api.adviceslip.com/advice')
       .then(res => setAdvice(res.data.slip.advice))
       .catch(err => console.log(err))
-
   };
 
   useEffect(() => {
@@ -17,9 +16,11 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <h1>Advice App</h1>
-      <h2>{advice}</h2>
+    <div className="app">
+      <div className="app__content">
+        <h2>{advice}</h2>
+        <button>GIVE ME ADVICE</button>
+      </div>
     </div>
   );
 }
