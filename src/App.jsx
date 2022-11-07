@@ -18,8 +18,8 @@ function App() {
   return (
     <div className="app">
       <div className="app__content">
-        <h2>{advice}</h2>
-        <button>GIVE ME ADVICE</button>
+        <h1>{advice}</h1>
+        <a href="#" onClick={() => fetchData()}><span>GIVE ME ADVICE</span></a>
       </div>
     </div>
   );
