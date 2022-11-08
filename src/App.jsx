@@ -21,6 +21,9 @@ function App() {
         <h1>{advice}</h1>
         <a href="#" onClick={() => fetchData()}><span>GIVE ME ADVICE</span></a>
       </div>
+      <div className="footer">
+        <p> <strong>&copy; 2022 Imdadu Rohman</strong> </p>
+      </div>
     </div>
   );
 }
