@@ -35,26 +35,16 @@ h1 {
 
 a {
   position: relative;
-  padding: 10px  30px;
-  margin: 0 15px;
-  color: #21ebff;
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 20px;
-  transition: 0.5px;
-  overflow: hidden;
   align-self: center;
-  width: 240px;
+  width: 200px;
   height: 50px;
   line-height: 48px;
   background-color: black;
   font-size: 16px;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-decoration: none;
   border-radius: 3px;
-  /* -webkit-box-reflect: below 1px linier-gradient (transparent, #000); */
 }
-
 
 a::before {
   content: '';
@@ -64,7 +54,6 @@ a::before {
   width: 100%;
   height: 100%;
   background: linear-gradient(45deg, #9933ff, #cc0000, #000099, #0c0c0c,  #9933ff, #cc0000, #000099, #0c0c0c);
-  /* #fb0094, #00f, #ff0, #f00, #fb0094, #00f, #ff0, #f00 */
   background-size: 400%;
   opacity: 0;
   transition: 0.5s;
